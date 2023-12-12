@@ -15,25 +15,30 @@ double f1(double x) { return 1.0; }
 
 void testTaskConstStep()
 {
-	size_t n = 3000;
+	size_t n =	1000;
 	int i = 1;
 
 	vector<double> u;
-	double  h = 1.0 / n, x = h,mu1=3.0,mu2=4.0;
-	double C2 = (mu2 - 1 - mu1 * e) / (e1 - e),C1=mu1-C2;
+	double  h = 1.0 / n, x = h, mu1 = 5.0, mu2 = -5.0;
+	double C11 = -1.6259906006857552601,
+		   C12 = 6.6259906006857552601,
+	       C21 = -3.1280624660618654555,
+	       C22 = 6.8037380719362040215;
 	int iStop = n / 2;
 
 	u.push_back(mu1);
 	for (; i <= iStop; i++)
 	{
-		u.push_back(C1*exp(1.414213562373*x)+ C2*exp(-1.414213562373 * x));
-		x = i * h;
+		x = i * h; //переставил сюда, щас должно норм
+		u.push_back(C11 * exp(1.414213562373095 * x) + C12 * exp(-1.414213562373095 * x)); // 	u.push_back(C11*exp(1.414213562373*x)+ C12*exp(-1.414213562373 * x));
+		//? начинаем с x1, i не успевает поменятся и в итоге второй раз считаем с x1, отстаем на 1
 	}
 
 	for (; i < n; i++)
 	{
-		u.push_back(C1 * exp(x) + C2 * exp(-x)+1);
-		x = i * h;
+		x = i * h;//переставил сюда, щас должно норм
+		u.push_back(C21 * exp(x) + C22 * exp(-x)+1);
+		//? начинаем с x1, i не успевает поменятся и в итоге второй раз считаем с x1, отстаем на 1
 	}
 	u.push_back(mu2);
 

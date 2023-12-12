@@ -1,19 +1,53 @@
 ﻿  Lab2Kapkaev.cpp
-D:\Programs\CPlusPlus\ChMLabs\Lab2Kapkaev\Lab2Kapkaev\Progonka.hpp(58,11): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-D:\Programs\CPlusPlus\ChMLabs\Lab2Kapkaev\Lab2Kapkaev\Progonka.hpp(59,11): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-D:\Programs\CPlusPlus\ChMLabs\Lab2Kapkaev\Lab2Kapkaev\Progonka.hpp(60,11): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-D:\Programs\CPlusPlus\ChMLabs\Lab2Kapkaev\Lab2Kapkaev\Progonka.hpp(103,10): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-D:\Programs\CPlusPlus\ChMLabs\Lab2Kapkaev\Lab2Kapkaev\Progonka.hpp(104,10): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-D:\Programs\CPlusPlus\ChMLabs\Lab2Kapkaev\Lab2Kapkaev\Progonka.hpp(105,10): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-D:\Programs\CPlusPlus\ChMLabs\Lab2Kapkaev\Lab2Kapkaev\Progonka.hpp(117,11): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-D:\Programs\CPlusPlus\ChMLabs\Lab2Kapkaev\Lab2Kapkaev\Progonka.hpp(118,11): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-D:\Programs\CPlusPlus\ChMLabs\Lab2Kapkaev\Lab2Kapkaev\Progonka.hpp(119,11): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-D:\Programs\CPlusPlus\ChMLabs\Lab2Kapkaev\Lab2Kapkaev\Progonka.hpp(131,10): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-D:\Programs\CPlusPlus\ChMLabs\Lab2Kapkaev\Lab2Kapkaev\Progonka.hpp(148,22): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-D:\Programs\CPlusPlus\ChMLabs\Lab2Kapkaev\Lab2Kapkaev\Progonka.hpp(149,22): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-D:\Programs\CPlusPlus\ChMLabs\Lab2Kapkaev\Lab2Kapkaev\Progonka.hpp(149,37): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-D:\Programs\CPlusPlus\ChMLabs\Lab2Kapkaev\Lab2Kapkaev\Progonka.hpp(153,23): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-D:\Programs\CPlusPlus\ChMLabs\Lab2Kapkaev\Lab2Kapkaev\Progonka.hpp(154,15): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-D:\Programs\CPlusPlus\ChMLabs\Lab2Kapkaev\Lab2Kapkaev\Progonka.hpp(154,30): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-D:\Programs\CPlusPlus\ChMLabs\Lab2Kapkaev\Lab2Kapkaev\TestTask.hpp(24,19): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-  Lab2Kapkaev.vcxproj -> D:\Programs\CPlusPlus\ChMLabs\Lab2Kapkaev\x64\Debug\Lab2Kapkaev.exe
+D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(60,10): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Lab2Kapkaev.cpp")
+  
+D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(61,10): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Lab2Kapkaev.cpp")
+  
+D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(62,10): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Lab2Kapkaev.cpp")
+  
+D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(105,9): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Lab2Kapkaev.cpp")
+  
+D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(106,9): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Lab2Kapkaev.cpp")
+  
+D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(107,9): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Lab2Kapkaev.cpp")
+  
+D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(119,10): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Lab2Kapkaev.cpp")
+  
+D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(120,10): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Lab2Kapkaev.cpp")
+  
+D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(121,10): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Lab2Kapkaev.cpp")
+  
+D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(133,9): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Lab2Kapkaev.cpp")
+  
+D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(151,21): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Lab2Kapkaev.cpp")
+  
+D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(152,22): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Lab2Kapkaev.cpp")
+  
+D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(152,37): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Lab2Kapkaev.cpp")
+  
+D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(156,23): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Lab2Kapkaev.cpp")
+  
+D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(157,15): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Lab2Kapkaev.cpp")
+  
+D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(157,30): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Lab2Kapkaev.cpp")
+  
+D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\TestTask.hpp(27,12): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Lab2Kapkaev.cpp")
+  
+  Lab2Kapkaev.vcxproj -> D:\there_is_no_god_further\ChM-Kapkaev-2\x64\Debug\Lab2Kapkaev.exe
