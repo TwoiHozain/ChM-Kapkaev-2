@@ -3,10 +3,48 @@
 
 #include <iostream>
 #include "TestTask.hpp"
+#include "MainTask.hpp"
 
 int main()
 {
-	testTaskConstStep();
+	size_t n;
+	double mu1, mu2,eps;
+	char choise;
+	
+	//cout << "Choose task:\n0 - test task;\n1 - main task.\n";
+	//cin >> choise;
+
+
+	mainTaskVariableStep(100, 1.0, 1.0, 0.001);
+	//switch (choise)
+	//{
+	//case('0'):
+	//	cout << "Enter mu1\n";
+	//	cin >> mu1;
+	//	cout << "Enter mu2\n";
+	//	cin >> mu2;
+	//	cout << "Enter n\n";
+	//	cin >> n;
+
+	//	testTaskConstStep(n,mu1,mu2);
+	//	break;
+	//case('1'):
+	//	cout << "Enter mu1\n";
+	//	cin >> mu1;
+	//	cout << "Enter mu2\n";
+	//	cin >> mu2;
+	//	cout << "Enter n\n";
+	//	cin >> n;
+	//	cout << "Enter eps\n";
+	//	cin >> eps;
+
+	//	mainTaskVariableStep(n, mu1, mu2,eps);
+	//	break;
+	//default:
+	//	cout << "Uncnown choise";
+	//	break;
+	//}
+
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"

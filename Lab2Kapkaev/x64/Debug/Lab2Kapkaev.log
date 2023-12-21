@@ -1,53 +1,64 @@
 ﻿  Lab2Kapkaev.cpp
-D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(60,10): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-  (компиляция исходного файла "Lab2Kapkaev.cpp")
-  
-D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(61,10): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-  (компиляция исходного файла "Lab2Kapkaev.cpp")
-  
-D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(62,10): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-  (компиляция исходного файла "Lab2Kapkaev.cpp")
-  
-D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(105,9): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-  (компиляция исходного файла "Lab2Kapkaev.cpp")
-  
-D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(106,9): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-  (компиляция исходного файла "Lab2Kapkaev.cpp")
-  
-D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(107,9): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-  (компиляция исходного файла "Lab2Kapkaev.cpp")
-  
-D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(119,10): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-  (компиляция исходного файла "Lab2Kapkaev.cpp")
-  
-D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(120,10): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-  (компиляция исходного файла "Lab2Kapkaev.cpp")
-  
-D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(121,10): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-  (компиляция исходного файла "Lab2Kapkaev.cpp")
-  
-D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(133,9): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-  (компиляция исходного файла "Lab2Kapkaev.cpp")
-  
-D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(151,21): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-  (компиляция исходного файла "Lab2Kapkaev.cpp")
-  
-D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(152,22): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-  (компиляция исходного файла "Lab2Kapkaev.cpp")
-  
-D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(152,37): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-  (компиляция исходного файла "Lab2Kapkaev.cpp")
-  
-D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(156,23): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-  (компиляция исходного файла "Lab2Kapkaev.cpp")
-  
-D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(157,15): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-  (компиляция исходного файла "Lab2Kapkaev.cpp")
-  
-D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(157,30): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-  (компиляция исходного файла "Lab2Kapkaev.cpp")
-  
-D:\there_is_no_god_further\ChM-Kapkaev-2\Lab2Kapkaev\TestTask.hpp(27,12): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-  (компиляция исходного файла "Lab2Kapkaev.cpp")
-  
-  Lab2Kapkaev.vcxproj -> D:\there_is_no_god_further\ChM-Kapkaev-2\x64\Debug\Lab2Kapkaev.exe
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Gauss.hpp(364,31): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Gauss.hpp(371,31): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Gauss.hpp(387,23): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Gauss.hpp(391,31): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Gauss.hpp(395,35): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Gauss.hpp(408,31): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(79,11): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(80,11): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(81,11): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(124,10): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(125,10): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(126,10): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(138,11): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(139,11): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(140,11): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(152,10): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(166,22): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(166,43): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(166,58): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(167,30): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(167,65): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(167,80): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\TestTask.hpp(17,24): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\TestTask.hpp(43,19): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Gauss.hpp(131,27): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Gauss.hpp(129): message : во время компиляции функции-члена класс шаблон "T Container<T>::operator *(const Container<T> &) const"
+          with
+          [
+              T=double
+          ]
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Gauss.hpp(340): message : выполняется компиляция ссылки на экземпляр шаблон функции "T Container<T>::operator *(const Container<T> &) const"
+          with
+          [
+              T=double
+          ]
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Gauss.hpp(244): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Container<T>"
+          with
+          [
+              T=double
+          ]
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Gauss.hpp(116,27): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Gauss.hpp(114): message : во время компиляции функции-члена класс шаблон "Container<T> Container<T>::operator *(const T)"
+          with
+          [
+              T=double
+          ]
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Gauss.hpp(251): message : выполняется компиляция ссылки на экземпляр шаблон функции "Container<T> Container<T>::operator *(const T)"
+          with
+          [
+              T=double
+          ]
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Gauss.hpp(98,31): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Gauss.hpp(95): message : во время компиляции функции-члена класс шаблон "void Container<T>::operator +=(const Container<T> &)"
+          with
+          [
+              T=double
+          ]
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Gauss.hpp(251): message : выполняется компиляция ссылки на экземпляр шаблон функции "void Container<T>::operator +=(const Container<T> &)"
+          with
+          [
+              T=double
+          ]
+  Lab2Kapkaev.vcxproj -> D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\x64\Debug\Lab2Kapkaev.exe

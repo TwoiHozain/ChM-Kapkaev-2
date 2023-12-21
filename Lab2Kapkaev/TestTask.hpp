@@ -1,5 +1,7 @@
 #pragma once
 #include "Progonka.hpp"
+#include "matplotlibcpp.h"
+namespace plt = matplotlibcpp;
 
 double k0(double x) { return 1.0; }
 double k1(double x) { return 1.0; }
@@ -10,57 +12,86 @@ double q1(double x) { return 1.0; }
 double f0(double x) { return 0.0; }
 double f1(double x) { return 1.0; }
 
-#define e exp(1)
-#define e1 exp(-1)
-
-void testTaskConstStep()
+vector<double>* getU(double mu1,double mu2,size_t n, Container<double>& C)
 {
-	size_t n =	1000;
-	int i = 1;
+	vector<double>* u = new vector<double>;
+	double h = 1.0 / n,x=h;
+	int i = 1, iStop = n/2;
 
-	vector<double> u;
-	double  h = 1.0 / n, x = h, mu1 = 5.0, mu2 = -5.0;
-	double C11 = -1.6259906006857552601,
-		   C12 = 6.6259906006857552601,
-	       C21 = -3.1280624660618654555,
-	       C22 = 6.8037380719362040215;
-	int iStop = n / 2;
-
-	u.push_back(mu1);
+	(*u).push_back(mu1);
 	for (; i <= iStop; i++)
 	{
-		x = i * h; //переставил сюда, щас должно норм
-		u.push_back(C11 * exp(1.414213562373095 * x) + C12 * exp(-1.414213562373095 * x)); // 	u.push_back(C11*exp(1.414213562373*x)+ C12*exp(-1.414213562373 * x));
-		//? начинаем с x1, i не успевает поменятся и в итоге второй раз считаем с x1, отстаем на 1
+		x = i * h;
+		(*u).push_back(C[0] * exp(1.414213562373095 * x) + C[1] * exp(-1.414213562373095 * x));
 	}
 
 	for (; i < n; i++)
 	{
-		x = i * h;//переставил сюда, щас должно норм
-		u.push_back(C21 * exp(x) + C22 * exp(-x)+1);
-		//? начинаем с x1, i не успевает поменятся и в итоге второй раз считаем с x1, отстаем на 1
+		x = i * h;
+		(*u).push_back(C[2] * exp(x) + C[3] * exp(-x) + 1);
 	}
-	u.push_back(mu2);
 
-	vector<double> v = progonkaConstStep({&k0,&k1}, { &q0,&q1}, { &f0,&f1 }, n, mu1, mu2);
+	(*u).push_back(mu2);
 
-	//vector<double> v = {
-	//	3.0,
-	//	2.9130467825976922113,
-	//	2.85581853236474863,
-	//	2.8277312875640984017,
-	//	2.8284984436569593821,
-	//	2.8581278287667281115,
-	//	2.9169217835577899849,
-	//	3.0054802463443395114,
-	//	3.1119377926488304117,
-	//	3.229170531772958202,
-	//	3.3577765899367439423,
-	//	3.4984121204981661314,
-	//	3.6517946516743748825,
-	//	3.8187067473999426894,
-	//	4.0};
+	return u;
+}
 
-	for (i = 0; i <= n; i++)
-		cout << u[i] - v[i] <<std::endl;
+void testTaskConstStep(size_t n,double mu1,double mu2)
+{
+	int i = 1;
+
+	double  h = 1.0 / n, x = h;
+	int iStop = n / 2;
+	
+	Container<double> C = getC(mu1, mu2);
+
+	vector<double>* u = getU(mu1, mu2, n, C);
+	vector<double>* v = progonkaConstStep({&k0,&k1}, { &q0,&q1}, { &f0,&f1 }, n, mu1, mu2);
+	vector<double> xi;
+
+	double maxuminsuv = (*u)[0] - (*v)[0];
+
+	for (i = 1; i <= n; i++)
+	{
+
+		if (abs((*u)[i] - (*v)[i]) > maxuminsuv)
+		{
+			maxuminsuv = abs((*u)[i] - (*v)[i]);
+		}
+	}
+
+	std::ofstream out("defaulOut.txt");
+
+	size_t width = 13;
+	out << std::setw(width) <<"Max |u(xi) - v(xi)| " << maxuminsuv << endl;
+
+	out << std::setw(width) << "N" << "|";
+	out << std::setw(width) << "Xi" << "|";
+	out << std::setw(width) << "U(xi)" << "|";
+	out << std::setw(width) << "V(xi)" << "|";
+	out << std::setw(width) << "U(xi)-V(xi)" << "|";
+
+	x = i * h;
+
+	if (out.is_open())
+	{
+		for (int i = 0; i <= n; i++)
+		{
+			out << std::right << std::setw(width) << i << "|";
+			out << std::right << std::setw(width) << i*h << "|";
+			xi.push_back(i * h);
+			out << std::right << std::setw(width) << (*u)[i] << "|";
+			out << std::right << std::setw(width) << (*v)[i] << "|";
+			out << std::right << std::setw(width) << (*u)[i] - (*v)[i] << "|";
+			out << std::endl;
+		}
+	}
+	out.close();
+
+	plt::suptitle("Test task");
+	plt::xlabel("X");
+	plt::ylabel("V / U");
+	plt::plot(xi, (*v), { {"color", "red"}, { "linestyle", "--" } });
+	plt::plot(xi, (*u), { {"color", "blue"}, { "linestyle", ":" } });
+	plt::show();
 }

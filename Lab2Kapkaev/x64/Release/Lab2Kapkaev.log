@@ -1,0 +1,80 @@
+﻿  Lab2Kapkaev.cpp
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Gauss.hpp(364,31): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Gauss.hpp(371,31): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Gauss.hpp(387,23): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Gauss.hpp(391,31): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Gauss.hpp(395,35): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Gauss.hpp(408,31): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(79,11): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(80,11): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(81,11): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(124,10): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(125,10): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(126,10): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(138,11): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(139,11): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(140,11): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(152,10): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(166,22): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(166,43): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(166,58): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(167,30): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(167,65): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Progonka.hpp(167,80): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\TestTask.hpp(19,24): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\TestTask.hpp(44,19): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Lab2Kapkaev.cpp(11,18): warning C4101: eps: неиспользованная локальная переменная
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Lab2Kapkaev.cpp(12,7): warning C4101: choise: неиспользованная локальная переменная
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Lab2Kapkaev.cpp(11,9): warning C4101: mu1: неиспользованная локальная переменная
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Lab2Kapkaev.cpp(11,14): warning C4101: mu2: неиспользованная локальная переменная
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Lab2Kapkaev.cpp(10,9): warning C4101: n: неиспользованная локальная переменная
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Gauss.hpp(131,27): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Gauss.hpp(129): message : во время компиляции функции-члена класс шаблон "T Container<T>::operator *(const Container<T> &) const"
+          with
+          [
+              T=double
+          ]
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Gauss.hpp(340): message : выполняется компиляция ссылки на экземпляр шаблон функции "T Container<T>::operator *(const Container<T> &) const"
+          with
+          [
+              T=double
+          ]
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Gauss.hpp(244): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Container<T>"
+          with
+          [
+              T=double
+          ]
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Gauss.hpp(116,27): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Gauss.hpp(114): message : во время компиляции функции-члена класс шаблон "Container<T> Container<T>::operator *(const T)"
+          with
+          [
+              T=double
+          ]
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Gauss.hpp(251): message : выполняется компиляция ссылки на экземпляр шаблон функции "Container<T> Container<T>::operator *(const T)"
+          with
+          [
+              T=double
+          ]
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Gauss.hpp(98,31): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Gauss.hpp(95): message : во время компиляции функции-члена класс шаблон "void Container<T>::operator +=(const Container<T> &)"
+          with
+          [
+              T=double
+          ]
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\Gauss.hpp(251): message : выполняется компиляция ссылки на экземпляр шаблон функции "void Container<T>::operator +=(const Container<T> &)"
+          with
+          [
+              T=double
+          ]
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\matplotlibcpp.h(1817,57): warning C4244: =: преобразование "size_t" в "_Ty", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\Lab2Kapkaev\matplotlibcpp.h(2884): message : выполняется компиляция ссылки на экземпляр шаблон функции "bool matplotlibcpp::plot<double>(const std::vector<double,std::allocator<double>> &,const std::string &)"
+  Создание кода
+  1 of 566 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  Lab2Kapkaev.vcxproj -> D:\Programs\CPlusPlus\ChMLabs\Новая папка\ChM-Kapkaev-2\x64\Release\Lab2Kapkaev.exe
